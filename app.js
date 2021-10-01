@@ -31,7 +31,7 @@ app.get('/search', (req, res) => {
     if (
       restaurant.name.toLowerCase().includes(keywords.toLowerCase()) ||
       restaurant.name_en.toLowerCase().includes(keywords.toLowerCase()) ||
-      restaurant.category.includes(keywords) ||
+      restaurant.category.includes(keywords)
     )
       return restaurant
   })
