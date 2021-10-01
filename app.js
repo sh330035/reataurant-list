@@ -27,12 +27,11 @@ app.get('/', (req, res) => {
 app.get('/search', (req, res) => {
   const keywords = req.query.keywords
   const restaurantSearch = restaurants.filter((restaurant) => {
-    // 可從名字、英文名字、種類、描述來搜尋餐廳
+    // 可從名字、英文名字、種類來搜尋餐廳
     if (
       restaurant.name.toLowerCase().includes(keywords.toLowerCase()) ||
       restaurant.name_en.toLowerCase().includes(keywords.toLowerCase()) ||
       restaurant.category.includes(keywords) ||
-      restaurant.description.toLowerCase().includes(keywords.toLowerCase())
     )
       return restaurant
   })
