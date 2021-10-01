@@ -8,7 +8,9 @@ This project is the webside which provided user with searching retaurants in Tai
 * Searching for restaurants' title by keywords.
 * Searching for restaurants' category by keywords.
 * Checking informations by clicking restaurant card.
-![Alt home_page](/path/img/home_page)
+![Alt home_page](https://github.com/sh330035/reataurant-list/blob/main/public/img/home_page.png)
+![Alt search_feature](https://github.com/sh330035/reataurant-list/blob/main/public/img/search_features.png)
+![Alt restaurant_information](https://github.com/sh330035/reataurant-list/blob/main/public/img/restaurant_information.png)
 
 ## Prerequisites ##
 * Node.js
